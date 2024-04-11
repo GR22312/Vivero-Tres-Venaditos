@@ -1,0 +1,159 @@
+{
+  "productos": [
+
+  {
+    "id": 1,
+    "name": "Diagnóstico Fiscal inicial",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Fiscal",
+    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Trámites de Devolución de Impuestos Federales",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Fiscal",
+    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Impuestos Locales",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Fiscal",
+    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Contabilidad Electrónica",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Fiscal",
+    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Preparación de Estados Financieros Mensuales (NIF)",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Fiscal",
+    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Asesoría laboral y de seguridad social",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Laboral",
+    "imagen": "https://blog.xubio.com/wp-content/uploads/2023/12/Las-ramas-de-la-contabilidad-permiten-realizar-un-control-adecuado-de-las-finanzas-1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Asesoría para la contratación de sus empleados",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Laboral",
+    "imagen": "https://blog.xubio.com/wp-content/uploads/2023/12/Las-ramas-de-la-contabilidad-permiten-realizar-un-control-adecuado-de-las-finanzas-1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Elaboración de nóminas",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Servicio Laboral",
+    "imagen": "https://blog.xubio.com/wp-content/uploads/2023/12/Las-ramas-de-la-contabilidad-permiten-realizar-un-control-adecuado-de-las-finanzas-1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Asesoría especializada por sectores",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Manejo de Servicio Integral de Registro de Obras de Construcción",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Acta constituida y autorizada por Notario Público",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Inscripción del Registro Federal del Contribuyente (RFC)",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Trámites ante el Registro Público de la Propiedad y Registro Público de Comercio",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Apertura de la Cuenta Bancaria en el Banco de su elección",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Constitución de Sociedades Civiles y Mercantiles, Asociaciones",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Libros corporativos para todo tipo de sociedades",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Escisiones, Fusiones y Liquidaciones",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Elaboración de todo tipo de contratos",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Registro de Marcas y Patentes",
+    "description": "mmmmmmmmmmmmmmmmmmmm",
+    "uso": "ddddddddddddddd",
+    "clasificacion": "Otros Servicios",
+    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
+  }
+
+  ]
+}
+

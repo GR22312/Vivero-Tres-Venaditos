@@ -1,0 +1,47 @@
+{
+    "servicios": [
+      {
+        "id": 1,
+        "nombre": "Diseño de jardines",
+        "images": "../img/Diseño.jpg",
+        "descripcion": "Creamos diseños de jardines personalizados para satisfacer tus necesidades y gustos. Desde jardines pequeños hasta paisajes complejos.",
+        "precio": 100
+      },
+      {
+        "id": 2,
+        "nombre": "Instalación de sistemas de riego",
+        "images": "../img/Instalación.jpg",
+        "descripcion": "Ofrecemos servicios profesionales de instalación de sistemas de riego para mantener tus plantas y césped bien hidratados y saludables.",
+        "precio": 50
+      },
+      {
+        "id": 3,
+        "nombre": "Podas y mantenimiento de árboles",
+        "images": "../img/mantenimiento.jpg",
+        "descripcion": "Nuestros expertos podadores pueden cuidar tus árboles, asegurando su crecimiento saludable y una apariencia estética.",
+        "precio": 80
+      },
+      {
+        "id": 4,
+        "nombre": "Consultoría en paisajismo",
+        "images": "../img/Consultoria.jpg",
+        "descripcion": "Te brindamos asesoramiento profesional para embellecer tu entorno exterior, maximizando el uso del espacio y la belleza natural.",
+        "precio": 120
+      },
+      {
+        "id": 5,
+        "nombre": "Control de plagas y enfermedades",
+        "images": "../img/Control.jpg",
+        "descripcion": "Utilizamos métodos seguros y efectivos para controlar plagas y enfermedades que puedan afectar a tus plantas y jardines.",
+        "precio": 70
+      },
+      {
+        "id": 6,
+        "nombre": "Techos verdes",
+        "images": "../img/Techosverdes.jpg",
+        "descripcion": "Implementamos sistemas de techos verdes para mejorar la eficiencia energética, reducir la contaminación y crear espacios verdes sostenibles.",
+        "precio": 150
+      }
+    ]
+  }
+  
