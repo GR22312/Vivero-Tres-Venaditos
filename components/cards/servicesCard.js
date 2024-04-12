@@ -30,36 +30,31 @@ export default function ServicesCards({services}) {
   }
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt={services.nombre}
-        onClick={handleView}
-        height="140"
-        image={services.images}//"/static/images/cards/contemplative-reptile.jpg"
-      />
-      <CardContent>
 
-        <Typography gutterBottom variant="h5" component="div">          
-            {services.nombre}
-        </Typography>
-        <Grid item xs={12}>
-              <Chip color='success' fontWeight="normal" sx={{ fontWeight: '600' }} label={`$${services.precio}`} />
-        </Grid>
-        
-        <Typography>
-            {services.descripcion}
-        </Typography>
+<Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '400px' }}>
+  <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+    <CardMedia
+      component="img"
+      height="200"
+        image={services.images}
+      alt={services.name}
+    />
+        <CardContent style={{ flex: '1 0 auto' }}>
+      <Typography variant="h6" gutterBottom>
+        {services.nombre}
+      </Typography>
+      <Typography variant="body2" color="textSecondary">
+        {services.clasificacion}
+      </Typography>
+    </CardContent>
 
-      </CardContent>
-      <CardActions>
-        <Button size="large" sx={{ width: '100%' }}>Ver más</Button>
-        {/*<Button size="small">Learn More</Button>*/}
-      </CardActions>
+    <CardActions>
+      <Button size="large" sx={{ width: '100%' }}>Ver más</Button>
+    </CardActions>
+  </Card>
+</Grid>
 
-      <Card_img open={view} cancelView={cancelView} imageUrl={services.imagen} nombrePlanta = {services.nombre} descripcionPlanta={services.descripcion}/>
-      <ImgFull open={viewImg} cancelView={cancelViewImg} imageUrl={services.imagen} />
-    </Card>
+
 
     
   );

@@ -1,159 +1,340 @@
 {
   "productos": [
-
-  {
-    "id": 1,
-    "name": "Diagnóstico Fiscal inicial",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Fiscal",
-    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Trámites de Devolución de Impuestos Federales",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Fiscal",
-    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Impuestos Locales",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Fiscal",
-    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Contabilidad Electrónica",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Fiscal",
-    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Preparación de Estados Financieros Mensuales (NIF)",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Fiscal",
-    "imagen": "https://wortev.com/wp-content/uploads/2022/05/Contabilidad-de-una-empresa-evita-errores-financieros-WORTEV.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Asesoría laboral y de seguridad social",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Laboral",
-    "imagen": "https://blog.xubio.com/wp-content/uploads/2023/12/Las-ramas-de-la-contabilidad-permiten-realizar-un-control-adecuado-de-las-finanzas-1.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Asesoría para la contratación de sus empleados",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Laboral",
-    "imagen": "https://blog.xubio.com/wp-content/uploads/2023/12/Las-ramas-de-la-contabilidad-permiten-realizar-un-control-adecuado-de-las-finanzas-1.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Elaboración de nóminas",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Servicio Laboral",
-    "imagen": "https://blog.xubio.com/wp-content/uploads/2023/12/Las-ramas-de-la-contabilidad-permiten-realizar-un-control-adecuado-de-las-finanzas-1.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Asesoría especializada por sectores",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Manejo de Servicio Integral de Registro de Obras de Construcción",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Acta constituida y autorizada por Notario Público",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Inscripción del Registro Federal del Contribuyente (RFC)",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Trámites ante el Registro Público de la Propiedad y Registro Público de Comercio",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Apertura de la Cuenta Bancaria en el Banco de su elección",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Constitución de Sociedades Civiles y Mercantiles, Asociaciones",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Libros corporativos para todo tipo de sociedades",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Escisiones, Fusiones y Liquidaciones",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Elaboración de todo tipo de contratos",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Registro de Marcas y Patentes",
-    "description": "mmmmmmmmmmmmmmmmmmmm",
-    "uso": "ddddddddddddddd",
-    "clasificacion": "Otros Servicios",
-    "imagen": "https://tickelia.com/wp-content/uploads/2023/06/contabilidad-gestion.jpg"
-  }
-
+    {
+      "id": 1,
+      "name": "Camelina o bugambilia",
+      "description": "Arbusto trepador, el tronco y las ramas tienen espinas. Son enredaderas de porte arbustivo que miden de 1 hasta 12 m de altura, y que crecen en cualquier terreno.",
+      "uso": "Se utiliza como planta ornamental en jardines, patios y terrazas. También se puede utilizar como cerco vivo para delimitar espacios y como cobertura para paredes y muros.",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://www.elsoldesinaloa.com.mx/doble-via/salud/5fgz2y-bugambilia/ALTERNATES/LANDSCAPE_1140/bugambilia"
+    },
+    {
+      "id": 2,
+      "name": "Anthurium anturios",
+      "description": "Requieren buena luz, pero no sol directo. Evitar fuentes de calor y temperaturas bajas. Hay gran variedad de colores.",
+      "uso": "Se utilizan como plantas ornamentales de interior para decorar espacios con sus vistosas y duraderas flores.",
+      "clasificacion": "plantas de interior",
+      "imagen": "https://mejorconsalud.as.com/wp-content/uploads/2021/12/flor-anturio.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Begonia",
+      "description": "Requieren luz natural evitar sol directo. Para uso exterior, ubicar cerca de plantas grandes que aporten sombra.",
+      "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando color y belleza a jardines, balcones y ventanas.",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://mejorconsalud.as.com/wp-content/uploads/2024/02/begonias.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dahlia dalias",
+      "description": "Se deben cortar las flores marchitas para estimular floración.",
+      "uso": "Se utilizan como plantas ornamentales en jardines y parques, aportando una amplia variedad de colores y formas a las áreas verdes.",
+      "clasificacion": "plantas de interior y de exterior",
+      "imagen": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2023/05/Diseno-sin-titulo1-5.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Geranium geranios",
+      "description": "Necesitan mucha luz pero se debe evitar el sol directo. Se deben proteger de temperaturas bajas.",
+      "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando color y aroma a jardines, balcones y terrazas.",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://www.elmundoforestal.com/wp-content/uploads/2021/10/geranio.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Gérberas",
+      "description": "Requieren luz natural, pero no necesitan el sol directo.",
+      "uso": "Se utilizan como plantas ornamentales en interiores, aportando color y frescura a espacios como salas, dormitorios y oficinas.",
+      "clasificacion": "plantas de interior",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNBp_3LI1hnpd_G3ECUlTz_r0RbFzfjpdRMPlB3FWQuA&s"
+    },
+    {
+      "id": 7,
+      "name": "Rosas",
+      "description": "Retirar hojas marchitas para estimular nueva floración.",
+      "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando belleza y fragancia a jardines, balcones y terrazas.",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://t1.uc.ltmcdn.com/es/posts/0/7/0/significado_de_las_rosas_segun_su_color_46070_orig.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Impatiens guineas",
+      "description": "Su floración es permanente y con buenos cuidados pueden durar todo el año.",
+      "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando color y belleza a jardines, balcones y terrazas.",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/58577172/original.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Petunias",
+      "description": "Requieren entre 4 y 5 horas de sol diarias para florecer. Buena adaptación a zonas calurosas.",
+      "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando color y alegría a jardines, balcones y terrazas.",
+      "clasificacion": "plantas de interior y exterior.",
+      "imagen": "https://www.elmueble.com/medio/2023/05/12/petunias_5f367415_230512124252_1000x525.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Viola pensamientos",
+      "description": "Ubicar en espacios muy luminosos a pleno sol o media sombra. Soporta bajas temperaturas y es muy adaptable a diferentes climas.",
+      "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando color y belleza a jardines, balcones y terrazas.",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2ceVHGofCxnYvZ6ukumXO-8gaSCNVD0YEYTZfiOyRw&s"
+    },
+    {
+      "id": 11,
+      "name": "Durantias",
+      "description": "Son arbustos y pequeños árboles.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://verdeencasa.com/wp-content/uploads/2023/05/Duranta-1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Helechos",
+      "description": "Requieren mucha sombra y luz solar indirecta.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://www.citysens.com/img/leoblog/b/1/118/lg-b-1000x1000%20(1)%20riot.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sansevieria o lengua de suegra",
+      "description": "No requiere gran cantidad de luz, pero es recomendable que reciban un poco de sol.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://www.elpais.com.co/resizer/ckt_rFuEmdydfgpoppA6p06CAuA=/1280x0/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/BKL2CZAVU5A3PGPBTFN37HAYBA.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Aeoniums",
+      "description": "Requiere exposición al sol y tolera temperaturas extremas.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA4kEuMjJlRuSPcu_Rerj2eX92-UCqlXinh9v6wQqo3rBhYILVhYn_3Ep8r8jxJGIg2ZY&usqp=CAU"
+    },
+    {
+      "id": 15,
+      "name": "Aloe vera sábila",
+      "description": "Requiere exposición al sol, tolera temperaturas extremas, inclusive sequías, pero no el frío.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://media.admagazine.com/photos/618a5ea6b94700461d6210c4/master/w_1600%2Cc_limit/92364.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Crassula crásulas",
+      "description": "Requiere exposición al sol y tolera temperaturas altas.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://www.picturethisai.com/wiki-image/1080/154241441101512721.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "Piedras vivas",
+      "description": "Prefiere lugares en semisombra con algo de sol.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://rootsmacaronesia.com/wp-content/uploads/2021/08/Piedras-vivas-o-lithops-800x419.png"
+    },
+    {
+      "id": 18,
+      "name": "Uñas de señorita",
+      "description": "Requieren pleno sol o ubicación en lugares muy iluminados. Resistentes a las altas temperaturas.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "plantas de interior y exterior",
+      "imagen": "https://i.pinimg.com/originals/4a/0e/63/4a0e635444522032b74faaab7c3a70b4.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Árbol de pera",
+      "description": "Pierde sus hojas estacionalmente, puede crecerhasta 12 metros. El peral es un árbol frutal de tronco erecto, decorteza color gris. La corteza del peral suele ser máso menos agrietada, dependiendo de la variedad, yaque existe un gran número de clases.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://previews.123rf.com/images/tchara/tchara1403/tchara140300060/27500291-peque%C3%B1o-%C3%A1rbol-de-pera-con-muchos-frutos-en-%C3%A9l.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Árbol de tejocote",
+      "description": "También se le conoce como manzanita y manzana deindias. Mide de 4 a 10 metros; forma una copa ovoideextendida, posee un tronco recto con una corteza decolor gris rojiza que se desprende en tiras; tiene ramasrígidas; sus hojas son de color verde oscuro, romboides-elípticas y alternas.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://www.elsoldetlaxcala.com.mx/doble-via/ohx36d-tejocote-2.jpg/ALTERNATES/FREE_768/tejocote%202.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Árbol de aguacate",
+      "description": "Árbol perenne de gran tamaño, puede alcanzar los 24 metrosde longitud. Este producto es de color verdoso y de piel fina o gruesa. Sushojas son verdes y grandes, las flores son diminutas y amarillas yde ellas nacen los aguacates. Existen muchas variedades.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://culturacientifica.com/app/uploads/2016/11/aguacate.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Árbol de papaya",
+      "description": "Arbusto que crece rápidamente alcanzando en pocotiempo hasta 10m de altura. El tallo es delgado, erectoy de color grisáceo. Presenta hojas grandes formadaspor varios lóbulos.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://assets.treedom.net/image/upload/s--645JC7K---/c_limit,f_auto/v1/scientific_specie-gallery/m/d899172e03e4c4b0715fc1741e9ff822.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Árbol de naranja",
+      "description": "En óptimas condiciones de cultivo llega hasta los13 metros de altura. Su tronco es corto, liso y decolor grisáceo. Sus hojas tienen forma ovaladade un verde muy vivo e intenso.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://www.gastrolabweb.com/u/fotografias/m/2021/12/14/f850x638-22895_100384_5028.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Árbol de manzana",
+      "description": "Árbol que puede llegar a alcanzar los 12 metros dealtura presenta la copa redondeada o abierta connumerosas ramas casi horizontales. Las hojas son deforma ovada, dentadas en los bordes.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://www.ecoportal.net/wp-content/uploads/cwv-webp-images/2023/06/Manzano.jpg.webp"
+    },
+    {
+      "id": 25,
+      "name": "Árbol de mango",
+      "description": "Desarrolla una copa perenne en forma de cúpula. Laforma y densidad de la copa varía entre variedades ysegún la forma de cultivo.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://media.admagazine.com/photos/618a5dc7b94700461d620fbd/master/w_1600%2Cc_limit/93549.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Árbol de mandarina",
+      "description": "Árbol pequeño de 2-6 m de altura, con troncocon frecuencia torcido. Es un árbol que se adapta con gran facilidad acondiciones climáticas desérticas, semitropicalesy subtropicales.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/04/thumbnail_en-macetas-1.jpg?w=883"
+    },
+    {
+      "id": 27,
+      "name": "Árbol de limón",
+      "description": "Pueden alcanzar una altura de 5 a 6 metros yhasta 4 metros de ancho, tienen ramasirregulares, bastante largas con pequeñasespinas, fuertes y rígidas, de porte abierto.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://tecolotito.elsiglodetorreon.com.mx/i/2022/01/1518524.jpeg"
+    },
+    {
+      "id": 28,
+      "name": "Árbol de granada",
+      "description": "Puede llegar a medir desde los 3 hasta los 6 metros dealtura según la variedad de la que se trate. El árbol dela granada tiene una hoja caduca y su tronco sueleretorcerse a medida que crece.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://www.tijuana.gob.mx/webpanel/catalogoPlantas/categorias/2021818114133536.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Árbol de durazno",
+      "description": "Es un árbol de forma arbustiva, copa amplia y de pequeño tamaño,que crece hasta los 4-10 metros de altura. El tronco es delgado, de corteza color gris, Las hojas verde oscuro sonalargadas, más anchas en medio y ligeramente dobladas hacia lanervadura central, con los bordes un poco aserrados. Las flores crecenen tallos cortos en brotes laterales",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://uvn-brightspot.s3.amazonaws.com/assets/vixes/imj/hogartotal/l/los-cuidados-del-arbol-duraznero-2.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Árbol de guayaba",
+      "description": "Arbusto perenne de unos 5-6m de altura y muyramificado.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles frutales",
+      "imagen": "https://www.tijuana.gob.mx/webpanel/catalogoPlantas/categorias/2021818114220176.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Árbol pata de vaca",
+      "description": "Árbol de hoja caduca que puede alcanzar alturas dehasta 10 metros. Dado su tamaño moderado, es unode los árboles ornamentales más populares enjardines",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://tienda.grupomundoverde.mx/wp-content/uploads/2022/05/Pata-de-vaca-scaled.jpeg"
+    },
+    {
+      "id": 32,
+      "name": "Árbol lluvia de oro",
+      "description": "Las hojas son grandes, alternas, caducas, las flores seproducen en racimos de péndulos.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://todoarboles.com/wp-content/uploads/2021/04/lluvia-de-oro-con-flores.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Árbol de jacaranda",
+      "description": "Tiene un tronco algo encorvado, con una corteza lisaque en los ejemplares viejos se vuelve áspera y muyagrietada. Las hojas son caducas, opuestas ycompuestas.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://www.prensalibre.com/wp-content/uploads/2024/02/Beneficios-de-la-jacaranda-2.jpg?quality=52"
+    },
+    {
+      "id": 34,
+      "name": "Árbol de magnolia",
+      "description": "Arbusto de crecimiento lento, piramidal, de grandesdimensiones",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://images.hola.com/imagenes/decoracion/20220601210846/cuidados-magnolia-plantas-de-exterior-il/1-95-268/cuidados-magnolio-08a-a.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Árbol sauce lloron",
+      "description": "Árbol con ramas delgadas, flexibles, largas,colgantes casi hasta el suelo.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://cdn0.bioenciclopedia.com/es/posts/1/2/4/sauce_lloron_421_600_square.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Árbol de cedro",
+      "description": "Á Es un género de coníferas pináceas, con un troncogrueso en forma piramidal, de hoja perenne, cuyacaracterística principal es un aroma agradable.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cedrela_fissilis_-_Jardim_Bot%C3%A2nico_de_S%C3%A3o_Paulo_-_IMG_0169.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Árbol de eucalipto",
+      "description": "Es un árbol que no sólo tiene función ornamental sinoque se utiliza para fines medicinales.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://puropaisajismo.com.ar/uploads/Eucalyptus-globulus.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Árbol de fresno",
+      "description": "mmmmmmmmmmmmmmmmmmmm",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://arboleslacalma.mx/wp-content/uploads/2018/04/detalle_FRESNO-ARIZONA01.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Árbol de laurel",
+      "description": "Presenta tronco recto recubierto de corteza gris yuna densa copa compuesta por ramas rectilíneasrecubiertas por hojas de un verde oscuro.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFdra8eahOYimWMF7xeVDVX57NKF7rg-YDw6iNw-SbNQ&s"
+    },
+    {
+      "id": 40,
+      "name": "Pino piñonero",
+      "description": "Este pino se caracteriza por su porte en forma desombrilla o parasol y sus grandes piñas globosas",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsysNXukTic8fKvVbUXVIIWlma2ReQvZDjPRYTVUu7w&s"
+    },
+    {
+      "id": 41,
+      "name": "Ciprés",
+      "description": "Especie muy alta y delgada, el ciprés se emplea deforma ornamental en parques y como cortavientos ypantalla acústica.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GVggo3Dy_DlWdwnt9Q4pHCuiRPY77OmKyc9gYeSQqg&s"
+    },
+    {
+      "id": 42,
+      "name": "Pinos",
+      "description": "Son árboles que pueden alcanzar hasta 30 m de altura,con un tronco recto sobre el que se disponen varios pisosde ramas.",
+      "uso": "ddddddddddddddd",
+      "clasificacion": "Arboles ornamentales",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8OIQcZSlti455aJX5fcOzMYLImpZoErUNZCMlr-K-PPv1tpb4Yy6YRNCpIPvZLmOV54&usqp=CAU"
+    }
   ]
 }
-

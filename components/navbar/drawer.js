@@ -152,13 +152,12 @@ export default function TemporaryDrawer({props,children}) {
       <React.Fragment>
       <CssBaseline />
       <ElevationScroll {...props}>
-      <AppBar sx={{ backgroundColor: '#169447' }}>
+      <AppBar sx={{ backgroundColor: '#274e13' }}>
   <Toolbar>
     <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
       <Menu />
     </IconButton>
     <div style={{ display: 'flex', alignItems: 'center' }}>
-      <img src="../img/logo/logo.png" alt="Logo" style={{ maxHeight: 40, borderRadius: '15%', boxShadow: '0px 0px 0px rgba(0, 0, 0, 0)', marginRight: '10px' }} />  
 
       <Typography variant="h6" component="div" sx={{ 
   //fontFamily: 'Arial, sans-serif', // Cambiar la fuente

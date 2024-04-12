@@ -3,7 +3,7 @@
 // Componente que consume los datos del archivo JSON
 import React, { useState, useEffect } from 'react';
 import datos from './../../pages/api/services/index.json';
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, List, ListSubheader } from '@mui/material';
 import ServicesCards from './servicesCard';
 
 function ListServices() {
@@ -14,25 +14,40 @@ function ListServices() {
   }, []);
 
   return (
-    <div>
-      {/*<Container>
-        
-      {servicios.map(servicio => (
 
-      <ProductCards products ={producto} />
+    <>
+    <List
+        fullWidth
+        sx={{
+            width: '100%',
+            bgcolor: 'grey.200',
+            borderRadius: '8px',
+            padding: '16px',
+        }}
+        component="nav"
+        aria-labelledby="nested-list-subheader"
+        subheader={
+            <ListSubheader
+                sx={{
+                    bgcolor: '#063d79',
+                    color: 'white',
+                    borderRadius: '8px 8px 0 0',
+                    padding: '16px',
+                }}
+                component="div"
+                id="nested-list-subheader"
+            >
+                Los servicios que nosotros podemos brindar, se muestran a continuacion:
+            </ListSubheader>
+        }
+    />
 
-      ))}
-
-      </Container>*/}
-
-      <Grid container spacing={2}>
-        {servicios.map((servicio) => (
-          <Grid  item xs={12} sm={6} md={4} key={servicio.id}>
-            <ServicesCards services={servicio} />
-          </Grid>
+<Grid container spacing={2}>
+{servicios.map((servicio) => (
+            <ServicesCards key={servicio.id} services={servicio} />
         ))}
-      </Grid>
-    </div>
+</Grid>
+</>
   );
 }
 
