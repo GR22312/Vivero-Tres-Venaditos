@@ -51,22 +51,22 @@ ElevationScroll.propTypes = {
   window: PropTypes.func,
 };
 
-export default function TemporaryDrawer({props,children}) {
-  
+export default function TemporaryDrawer({ props, children }) {
+
   const router = useRouter();
 
   const handleHomeClick = () => {
     router.push("/")
-  } 
+  }
   const handleProductsClick = () => {
     router.push("/products")
-  }  
+  }
   const handleAboutUsClick = () => {
     router.push("/about_us")
-  }  
+  }
   const handleContactUsClick = () => {
     router.push("/contact_us")
-  }  
+  }
   const handleServicesClick = () => {
     router.push("/services")
   }
@@ -80,52 +80,52 @@ export default function TemporaryDrawer({props,children}) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Inicio', 'Productos', 'Servicios', 'Acerca de nosotros','Contactanos'].map((text, index) => (
-            <ListItem key={text} disablePadding>
-  <ListItemButton onClick={() => {
-    switch(index) {
-      case 0:
-        handleHomeClick();
-        break;
-      case 1:
-        handleProductsClick();
-        break;
-      case 2:
-        handleServicesClick();
-        break;
-      case 3:
-        handleAboutUsClick();
-        break;
-      case 4:
-        handleContactUsClick();
-        break;
-      default:
-        break;
-    }
-  }}>
-    <ListItemIcon>
-      {index === 0 ? (
-        <HomeIcon />
-      ) : index === 1 ? (
-        <NaturePeopleRounded />
-      ) : index === 2 ? (
-        <Assignment />
-      ) : index === 3 ? (
-        <SearchOutlined />
-      ) : (
-        <ContactPage />
-      )}
-    </ListItemIcon>
-    <ListItemText primary={text} />
-  </ListItemButton>
-</ListItem>
+        {['Inicio', 'Productos', 'Servicios', 'Acerca de nosotros', 'Contactanos'].map((text, index) => (
+          <ListItem key={text} disablePadding>
+            <ListItemButton onClick={() => {
+              switch (index) {
+                case 0:
+                  handleHomeClick();
+                  break;
+                case 1:
+                  handleProductsClick();
+                  break;
+                case 2:
+                  handleServicesClick();
+                  break;
+                case 3:
+                  handleAboutUsClick();
+                  break;
+                case 4:
+                  handleContactUsClick();
+                  break;
+                default:
+                  break;
+              }
+            }}>
+              <ListItemIcon>
+                {index === 0 ? (
+                  <HomeIcon />
+                ) : index === 1 ? (
+                  <NaturePeopleRounded />
+                ) : index === 2 ? (
+                  <Assignment />
+                ) : index === 3 ? (
+                  <SearchOutlined />
+                ) : (
+                  <ContactPage />
+                )}
+              </ListItemIcon>
+              <ListItemText primary={text} />
+            </ListItemButton>
+          </ListItem>
 
 
         ))}
       </List>
 
 
- {/*    <Divider />
+      {/*    <Divider />
       <List>
         {['All mail', 'Trash', 'Spam'].map((text, index) => (
           <ListItem key={text} disablePadding>
@@ -150,44 +150,46 @@ export default function TemporaryDrawer({props,children}) {
 
     <div>
       <React.Fragment>
-      <CssBaseline />
-      <ElevationScroll {...props}>
-      <AppBar sx={{ backgroundColor: '#274e13' }}>
-  <Toolbar>
-    <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
-      <Menu />
-    </IconButton>
-    <div style={{ display: 'flex', alignItems: 'center' }}>
+        <CssBaseline />
+        <ElevationScroll {...props}>
+          <AppBar sx={{ backgroundColor: '#274e13' }}>
+            <Toolbar>
+              <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
+                <Menu />
+              </IconButton>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
 
-      <Typography variant="h6" component="div" sx={{ 
-  //fontFamily: 'Arial, sans-serif', // Cambiar la fuente
-  fontWeight: 'bold', // Ajustar el grosor del texto
-  color: '#ffffff', // Cambiar el color del texto
-  letterSpacing: '2px', // Ajustar el espacio entre letras
-  textAlign: 'center', // Centrar el texto
-  //textDecoration: 'underline', // Añadir subrayado
-  // Otros estilos personalizados...
-}}>
-  Vivero Tres Venaditos
-</Typography>
+                <Typography variant="h6" component="div" sx={{
+                  //fontFamily: 'Arial, sans-serif', // Cambiar la fuente
+                  fontWeight: 'bold', // Ajustar el grosor del texto
+                  color: '#ffffff', // Cambiar el color del texto
+                  letterSpacing: '2px', // Ajustar el espacio entre letras
+                  textAlign: 'center', // Centrar el texto
+                  //textDecoration: 'underline', // Añadir subrayado
+                  // Otros estilos personalizados...
+                }}>
+                  Vivero Tres Venaditos
+                </Typography>
 
 
-    </div>
-  </Toolbar>
-</AppBar>
+              </div>
+            </Toolbar>
+          </AppBar>
 
-      </ElevationScroll>
-      <Toolbar />
-      <Container>
-        
-      
-       <Box sx={{ my: 2 }}>
-       <div style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
-      {children}
-    </div>
-            </Box>
-      </Container>
-    </React.Fragment>
+        </ElevationScroll>
+        <Toolbar />
+        <Container
+          maxWidth={false} // Esto deshabilita el ancho máximo del Container
+     >
+
+
+          <Box sx={{ my: 0 }}>
+            <div style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
+              {children}
+            </div>
+          </Box>
+        </Container>
+      </React.Fragment>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
