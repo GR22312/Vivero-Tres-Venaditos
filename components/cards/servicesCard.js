@@ -31,7 +31,7 @@ export default function ServicesCards({ services }) {
 
   return (
 
-    <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '370px' }}>
+    <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '380px' }}>
       <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
         <CardMedia
           component="img"

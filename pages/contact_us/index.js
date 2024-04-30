@@ -10,7 +10,7 @@ const ContactUs = () => {
       <Grid container spacing={4} justifyContent="center">
         <Grid item xs={12} md={6}>
           <Box display="flex" flexDirection="column" alignItems="center">
-            <Avatar src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg" alt="Rene Campeche Lopez" sx={{ width: 120, height: 120, mb: 2 }} />
+            <Avatar src="../img/logo/userLogo.png" alt="Rene Campeche Lopez" sx={{ width: 225, height: 210, mb: 2 }} />
             <Typography variant="h5" gutterBottom align="center">Rene Campeche Lopez</Typography>
             <Typography variant="subtitle1" align="center">Propietario</Typography>
           </Box>
