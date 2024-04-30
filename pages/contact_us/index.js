@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Avatar, Divider, Box, IconButton } from '@mui/material';
+import { Typography, Grid, Avatar, Divider, Box, IconButton, CardMedia } from '@mui/material';
 import { Phone, LocationOn, Email } from '@mui/icons-material';
 
 const ContactUs = () => {
@@ -41,6 +41,21 @@ const ContactUs = () => {
         <Grid item xs={12} md={6}>
           <Typography variant="body1" gutterBottom><LocationOn /> Ubicación: 5 Norte 634, Centro Atlixco, Puebla CP: 74200</Typography>
           <Typography variant="body1" gutterBottom><Email /> Email: tresvenaditos7210@gmail.com</Typography>
+        </Grid>
+
+
+        
+
+        <Grid item xs={12} md={12}>
+          <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+            <a href="https://www.google.com/maps/place/18%C2%B054'50.5%22N+98%C2%B026'05.0%22W/@18.9140278,-98.4347222,18z/data=!3m1!4b1!4m4!3m3!8m2!3d18.9140278!4d-98.4347222?hl=es&entry=ttu" target="_blank" rel="noopener noreferrer">
+              <CardMedia
+                component="img"
+                image="../img/ubicacion/vivero.png"
+                alt="logo"
+              />
+            </a>
+          </Box>
         </Grid>
       </Grid>
     </Box>
