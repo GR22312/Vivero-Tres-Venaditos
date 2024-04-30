@@ -9,8 +9,8 @@ import Card_img from '../modals/products_img';
 import { Chip, Grid } from '@mui/material';
 import ImgFull from '../modals/img';
 
-export default function ServicesCards({services}) {
-  
+export default function ServicesCards({ services }) {
+
   const [view, setView] = React.useState(false);
 
   const [viewImg, setViewImg] = React.useState(false);
@@ -31,31 +31,31 @@ export default function ServicesCards({services}) {
 
   return (
 
-<Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '400px' }}>
-  <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-    <CardMedia
-      component="img"
-      height="200"
-        image={services.images}
-      alt={services.name}
-    />
+    <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '370px' }}>
+      <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+        <CardMedia
+          component="img"
+          height="200"
+          image={services.images}
+          alt={services.name}
+        />
         <CardContent style={{ flex: '1 0 auto' }}>
-      <Typography variant="h6" gutterBottom>
-        {services.nombre}
-      </Typography>
-      <Typography variant="body2" color="textSecondary">
-        {services.clasificacion}
-      </Typography>
-    </CardContent>
+          <Typography variant="h6" gutterBottom>
+            {services.nombre}
+          </Typography>
+          <Typography variant="body2" color="textSecondary">
+            {services.clasificacion}
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="large" sx={{ width: '100%' }}>Ver más</Button>
+        </CardActions>
 
-    <CardActions>
-      <Button size="large" sx={{ width: '100%' }}>Ver más</Button>
-    </CardActions>
-  </Card>
-</Grid>
+      </Card>
+    </Grid>
 
 
 
-    
+
   );
 }

@@ -19,10 +19,12 @@ function Home() {
   };
 
   const images = [
-    "https://probosque.edomex.gob.mx/sites/probosque.edomex.gob.mx/files/images/prodPlan/viverosForestales5.jpg",
-    "https://agrosabio.com/wp-content/uploads/2023/05/vivero-forestal-26-1024x592.jpg?v=1685582685",
-    "https://previews.123rf.com/images/arinahabich/arinahabich1305/arinahabich130501432/19553092-flores-de-primavera-en-exhibici%C3%B3n-en-el-vivero-local-.jpg",
-    // Agrega más URLs de imágenes si es necesario
+    "https://www.arqhys.com/wp-content/uploads/2017/03/tipos-de-viveros.jpg",
+    "https://viverosducasse.com/wp-content/uploads/2022/04/381931c8-795e-4eb8-b4ea-548d27452549.jpg",
+    "https://viverolucas.com.mx/img/bn-1.jpeg",
+    "https://www.viverospoza.com/wp-content/uploads/2014/02/IMG_20180111_105536-edit-cut.jpg",
+    "https://www.agronegocios.es/wp-content/uploads/2023/04/Viveros-Hernandorena.jpg"
+    // Aqui se agregan más URLs de imágenes si es necesario
   ];
 
   const imageWidth = "100%";
@@ -82,9 +84,9 @@ function Home() {
     {/* Sección de botones con imágenes */}
 <Grid container spacing={2} justifyContent="center" sx={{ mt: -2 }}>
     {[
-        { text: "Venta de plantas", path: "/products", img: "https://cdn.pixabay.com/photo/2017/07/25/14/34/rose-2538361_1280.jpg" },
-        { text: "Venta de árboles", path: "/venta_arboles", img: "https://sembralia.com/cdn/shop/articles/cherries-1595610_640.jpg?v=1648560525" },
-        { text: "Servicios", path: "/servicios", img: "https://jardineriapro.com/img/mantenimiento.jpg" },
+        { text: "Venta de plantas", path: "/plant_catalog", img: "https://cdn.pixabay.com/photo/2017/07/25/14/34/rose-2538361_1280.jpg" },
+        { text: "Venta de árboles", path: "/tree_catalog", img: "https://sembralia.com/cdn/shop/articles/cherries-1595610_640.jpg?v=1648560525" },
+        { text: "Servicios", path: "/services_catalog", img: "https://jardineriapro.com/img/mantenimiento.jpg" },
         { text: "Otros productos", path: "/otros_productos", img: "https://serveiestacio.com/blog/wp-content/uploads/2019/05/abonos-y-fertilizantes-para-plantas-1400x930.jpg" },
     ].map(({ text, path, img }, index) => (
         <Grid item key={index} xs={12} sm={6} md={3} sx={{ textAlign: "center" }}>
@@ -99,6 +101,7 @@ function Home() {
                     justifyContent: "center",
                     height: 300, // Establece una altura fija para el botón
                     padding: 2, // Establece un padding uniforme
+                    color: "black"
                 }}
             >
                 <CardMedia
@@ -114,7 +117,7 @@ function Home() {
                         resolution: '72dpi' // Puedes establecer una resolución específica en puntos por pulgada
                     }}
                 />
-                <Typography variant="h6" sx={{ mt: 1, fontWeight: "bold", textAlign: "center" }}>
+                <Typography variant="h6" sx={{ mt: 1, fontWeight: "bold", textAlign: "center", color: "black"}}>
                     {text}
                 </Typography>
             </Button>

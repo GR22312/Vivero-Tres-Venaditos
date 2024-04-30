@@ -2,7 +2,7 @@
 //import datos from './../../pages/api/products/index.json';
 // Componente que consume los datos del archivo JSON
 import React, { useState, useEffect } from 'react';
-import datos from './../../pages/api/services/index.json';
+import datos from './../../pages/api/servicios/index.json';
 import { Container, Grid, List, ListSubheader } from '@mui/material';
 import ServicesCards from './servicesCard';
 

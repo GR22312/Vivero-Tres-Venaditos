@@ -44,10 +44,6 @@ function ElevationScroll(props) {
 
 ElevationScroll.propTypes = {
   children: PropTypes.element.isRequired,
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 
@@ -58,8 +54,11 @@ export default function TemporaryDrawer({ props, children }) {
   const handleHomeClick = () => {
     router.push("/")
   }
-  const handleProductsClick = () => {
-    router.push("/products")
+  const handlePlantsClick = () => {
+    router.push("/plant_catalog")
+  }
+  const handleTreeClick = () => {
+    router.push("/tree_catalog")
   }
   const handleAboutUsClick = () => {
     router.push("/about_us")
@@ -68,7 +67,7 @@ export default function TemporaryDrawer({ props, children }) {
     router.push("/contact_us")
   }
   const handleServicesClick = () => {
-    router.push("/services")
+    router.push("/services_catalog")
   }
 
   const [open, setOpen] = React.useState(false);
@@ -80,7 +79,7 @@ export default function TemporaryDrawer({ props, children }) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Inicio', 'Productos', 'Servicios', 'Acerca de nosotros', 'Contactanos'].map((text, index) => (
+        {['Inicio', 'Catalogo de plantas', 'Catalogo de arboles', 'Catalogo de servicios', 'Acerca de nosotros', 'Contactanos'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => {
               switch (index) {
@@ -88,15 +87,18 @@ export default function TemporaryDrawer({ props, children }) {
                   handleHomeClick();
                   break;
                 case 1:
-                  handleProductsClick();
+                  handlePlantsClick();
                   break;
                 case 2:
-                  handleServicesClick();
+                  handleTreeClick();
                   break;
                 case 3:
-                  handleAboutUsClick();
+                  handleServicesClick();
                   break;
                 case 4:
+                  handleAboutUsClick();
+                  break;
+                case 5:
                   handleContactUsClick();
                   break;
                 default:
@@ -119,26 +121,8 @@ export default function TemporaryDrawer({ props, children }) {
               <ListItemText primary={text} />
             </ListItemButton>
           </ListItem>
-
-
         ))}
       </List>
-
-
-      {/*    <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-        */}
     </Box>
   );
 
@@ -180,7 +164,7 @@ export default function TemporaryDrawer({ props, children }) {
         <Toolbar />
         <Container
           maxWidth={false} // Esto deshabilita el ancho máximo del Container
-     >
+        >
 
 
           <Box sx={{ my: 0 }}>

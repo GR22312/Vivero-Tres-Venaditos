@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import datos from './../../pages/api/products/index.json';
+import datos from './../../pages/api/arboles/index.json';
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, TextField, Typography, Select, MenuItem, InputLabel, FormControl, Box } from '@mui/material';
 
-const ListServices = ({ servicio }) => {
+const ListPlantas = ({ arboles }) => {
     return (
-        <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '400px' }}>
+        <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '370px' }}>
             <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <CardMedia
                     component="img"
                     height="200"
-                    image={servicio.imagen}
-                    alt={servicio.name}
+                    image={arboles.imagen}
+                    alt={arboles.name}
                 />
                 <CardContent style={{ flex: '1 0 auto' }}>
                     <Typography variant="h6" gutterBottom>
-                        {servicio.name}
+                        {arboles.name}
                     </Typography>
                     <Typography variant="body2" color="textSecondary">
-                        Clasificación: {servicio.clasificacion}
+                        Clasificación: {arboles.clasificacion}
                     </Typography>
                 </CardContent>
                 <CardActions>
@@ -28,10 +28,10 @@ const ListServices = ({ servicio }) => {
     );
 };
 
-const ServiciosGrid = () => {
+const PlantasGrid = () => {
     const [servicios, setServicios] = useState([]);
     const [filtroNombre, setFiltroNombre] = useState('');
-    const [filtroCategoria, setFiltroCategoria] = useState('');
+    const [filtroCategoria, setFiltroCategoria] = useState('Todas las categorías');
 
     useEffect(() => {
         setServicios(datos.productos);
@@ -48,9 +48,9 @@ const ServiciosGrid = () => {
     };
 
     // Filtra los servicios según el filtro ingresado por nombre y categoría
-    const serviciosFiltrados = servicios.filter((servicio) =>
-        servicio.name.toLowerCase().includes(filtroNombre.toLowerCase()) &&
-        (filtroCategoria === '' || servicio.clasificacion === filtroCategoria)
+    const serviciosFiltrados = servicios.filter((arboles) =>
+        arboles.name.toLowerCase().includes(filtroNombre.toLowerCase()) &&
+        (filtroCategoria === 'Todas las categorías' || arboles.clasificacion === filtroCategoria)
     );
 
     return (
@@ -64,11 +64,11 @@ const ServiciosGrid = () => {
                     value={filtroNombre}
                     onChange={handleFiltroNombreChange}
                     fullWidth
-                    sx={{ marginRight: 2 }}
+                    sx={{ marginRight: 2,backgroundColor: "white" }}
                 />
                 
                 {/* Menú desplegable para el filtro por categoría */}
-                <FormControl variant="outlined" fullWidth>
+                <FormControl variant="outlined" fullWidth  sx={{ backgroundColor: "white" }}>
                     <InputLabel id="filtro-categoria-label">Filtrar por categoría</InputLabel>
                     <Select
                         labelId="filtro-categoria-label"
@@ -77,9 +77,9 @@ const ServiciosGrid = () => {
                         onChange={handleFiltroCategoriaChange}
                         label="Filtrar por categoría"
                     >
-                        <MenuItem value="">Todas las categorías</MenuItem>
-                        <MenuItem value="plantas de interior">Plantas de interior</MenuItem>
-                        <MenuItem value="plantas de interior y exterior">Plantas de interior y exterior</MenuItem>
+                        <MenuItem value="Todas las categorías">Todas las categorías</MenuItem>
+                        <MenuItem value="Arboles ornamentales">Arboles ornamentales</MenuItem>
+                        <MenuItem value="Arboles frutales">Arboles frutales</MenuItem>
                         {/* Agrega más categorías según sea necesario */}
                     </Select>
                 </FormControl>
@@ -94,12 +94,12 @@ const ServiciosGrid = () => {
 
             {/* Grid de servicios filtrados */}
             <Grid container spacing={2}>
-                {serviciosFiltrados.map((servicio) => (
-                    <ListServices key={servicio.id} servicio={servicio} />
+                {serviciosFiltrados.map((arboles) => (
+                    <ListPlantas key={arboles.id} arboles={arboles} />
                 ))}
             </Grid>
         </div>
     );
 };
 
-export default ServiciosGrid;
+export default PlantasGrid;

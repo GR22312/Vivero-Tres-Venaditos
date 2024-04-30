@@ -1,13 +1,5 @@
-// pages/api/datos.js
-//import datos from './../../pages/api/products/index.json';
-/* Componente que consume los datos del archivo JSON
-import React, { useState, useEffect } from 'react';
-import datos from './../../pages/api/products/index.json';
-import ProductCards from './productsCard';
-import { Container, Grid } from '@mui/material';*/
-
 import { List, ListSubheader } from "@mui/material";
-import ProductCards from "../../components/cards/productsCard";
+import PlantasCards from "./plantasCard";
 
 export default function products() {
     return (
@@ -37,7 +29,7 @@ export default function products() {
                     </ListSubheader>
                 }
             />
-            <ProductCards />
+            <PlantasCards />
         </>
     )
 }
