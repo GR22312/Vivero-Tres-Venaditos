@@ -78,8 +78,8 @@ const PlantasGrid = () => {
                         label="Filtrar por categoría"
                     >
                         <MenuItem value="Todas las categorías">Todas las categorías</MenuItem>
-                        <MenuItem value="plantas de interior">Plantas de interior</MenuItem>
-                        <MenuItem value="plantas de interior y exterior">Plantas de interior y exterior</MenuItem>
+                        <MenuItem value="Plantas de interior">Plantas de interior</MenuItem>
+                        <MenuItem value="Plantas de interior y exterior">Plantas de interior y exterior</MenuItem>
                         {/* Agrega más categorías según sea necesario */}
                     </Select>
                 </FormControl>
