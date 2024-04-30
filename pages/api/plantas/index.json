@@ -79,70 +79,70 @@
       "uso": "Se utilizan como plantas ornamentales tanto en interiores como en exteriores, aportando color y belleza a jardines, balcones y terrazas.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2ceVHGofCxnYvZ6ukumXO-8gaSCNVD0YEYTZfiOyRw&s"
-    },
-    {
+    },{
       "id": 11,
       "name": "Durantias",
       "description": "Son arbustos y pequeños árboles.",
-      "uso": "ddddddddddddddd",
+      "uso": "Ornamental, se utiliza para jardines y patios, ideal para crear setos y borduras.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://verdeencasa.com/wp-content/uploads/2023/05/Duranta-1.jpg"
-    },
-    {
+  },
+  {
       "id": 12,
       "name": "Helechos",
       "description": "Requieren mucha sombra y luz solar indirecta.",
-      "uso": "ddddddddddddddd",
+      "uso": "Decorativa, excelente para interiores oscuros y con alta humedad.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://www.citysens.com/img/leoblog/b/1/118/lg-b-1000x1000%20(1)%20riot.jpg"
-    },
-    {
+  },
+  {
       "id": 13,
       "name": "Sansevieria o lengua de suegra",
       "description": "No requiere gran cantidad de luz, pero es recomendable que reciban un poco de sol.",
-      "uso": "ddddddddddddddd",
+      "uso": "Purificadora de aire, ideal para oficinas y espacios interiores.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://www.elpais.com.co/resizer/ckt_rFuEmdydfgpoppA6p06CAuA=/1280x0/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/BKL2CZAVU5A3PGPBTFN37HAYBA.jpg"
-    },
-    {
+  },
+  {
       "id": 14,
       "name": "Aeoniums",
       "description": "Requiere exposición al sol y tolera temperaturas extremas.",
-      "uso": "ddddddddddddddd",
+      "uso": "Ornamental, ideal para jardines rocosos y suculentos.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA4kEuMjJlRuSPcu_Rerj2eX92-UCqlXinh9v6wQqo3rBhYILVhYn_3Ep8r8jxJGIg2ZY&usqp=CAU"
-    },
-    {
+  },
+  {
       "id": 15,
       "name": "Aloe vera sábila",
       "description": "Requiere exposición al sol, tolera temperaturas extremas, inclusive sequías, pero no el frío.",
-      "uso": "ddddddddddddddd",
+      "uso": "Medicinal, se utiliza para tratar quemaduras, heridas y problemas de piel.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://media.admagazine.com/photos/618a5ea6b94700461d6210c4/master/w_1600%2Cc_limit/92364.jpg"
-    },
-    {
+  },
+  {
       "id": 16,
       "name": "Crassula crásulas",
       "description": "Requiere exposición al sol y tolera temperaturas altas.",
-      "uso": "ddddddddddddddd",
+      "uso": "Ornamental, excelente para macetas y jardines de rocas.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://www.picturethisai.com/wiki-image/1080/154241441101512721.jpeg"
-    },
-    {
+  },
+  {
       "id": 17,
       "name": "Piedras vivas",
       "description": "Prefiere lugares en semisombra con algo de sol.",
-      "uso": "ddddddddddddddd",
+      "uso": "Ornamental, se utiliza en jardines de rocas y paisajismo.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://rootsmacaronesia.com/wp-content/uploads/2021/08/Piedras-vivas-o-lithops-800x419.png"
-    },
-    {
+  },
+  {
       "id": 18,
       "name": "Uñas de señorita",
       "description": "Requieren pleno sol o ubicación en lugares muy iluminados. Resistentes a las altas temperaturas.",
-      "uso": "ddddddddddddddd",
+      "uso": "Ornamental, ideal para jardines y patios soleados.",
       "clasificacion": "Plantas de interior y exterior",
       "imagen": "https://i.pinimg.com/originals/4a/0e/63/4a0e635444522032b74faaab7c3a70b4.jpg"
-    }
+  }
+  
   ]
 }

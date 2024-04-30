@@ -53,9 +53,5 @@ export default function ServicesCards({ services }) {
 
       </Card>
     </Grid>
-
-
-
-
   );
 }

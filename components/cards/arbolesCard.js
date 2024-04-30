@@ -1,9 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import datos from './../../pages/api/arboles/index.json';
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, TextField, Typography, Select, MenuItem, InputLabel, FormControl, Box } from '@mui/material';
+import ModalArboles from '../modals/modal_arboles';
 
 const ListPlantas = ({ arboles }) => {
+    const [modalOpen, setModalOpen] = useState(false);
+
+    // Función para abrir el modal
+    const handleOpenModal = () => {
+        setModalOpen(true);
+    };
+
+    // Función para cerrar el modal
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
     return (
+        <>
         <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '370px' }}>
             <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <CardMedia
@@ -21,10 +34,18 @@ const ListPlantas = ({ arboles }) => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="large" sx={{ width: '100%' }}>Ver más</Button>
+                    <Button size="large" sx={{ width: '100%' }} onClick={handleOpenModal}>Ver más</Button>
                 </CardActions>
             </Card>
         </Grid>
+
+{/* Pasa el estado modalOpen y las funciones handleCloseModal e infoPlanta a ModalPlantas */}
+<ModalArboles
+    infoPlanta={arboles}
+    modalOpen={modalOpen}
+    handleCloseModal={handleCloseModal}
+/>
+</>
     );
 };
 
@@ -54,7 +75,7 @@ const PlantasGrid = () => {
     );
 
     return (
-        <div>
+        <div> 
             {/* Contenedor para ubicar los filtros en la misma línea */}
             <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
                 {/* Campo de entrada para el filtro por nombre */}

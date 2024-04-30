@@ -4,7 +4,7 @@
       "id": 19,
       "name": "Árbol de pera",
       "description": "Pierde sus hojas estacionalmente, puede crecerhasta 12 metros. El peral es un árbol frutal de tronco erecto, decorteza color gris. La corteza del peral suele ser máso menos agrietada, dependiendo de la variedad, yaque existe un gran número de clases.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de pera es cultivado principalmente por su fruta, que es comestible y nutritiva. También se utiliza como árbol ornamental en jardines por su belleza y se puede plantar para crear sombra en espacios abiertos.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://previews.123rf.com/images/tchara/tchara1403/tchara140300060/27500291-peque%C3%B1o-%C3%A1rbol-de-pera-con-muchos-frutos-en-%C3%A9l.jpg"
     },
@@ -12,7 +12,7 @@
       "id": 20,
       "name": "Árbol de tejocote",
       "description": "También se le conoce como manzanita y manzana deindias. Mide de 4 a 10 metros; forma una copa ovoideextendida, posee un tronco recto con una corteza decolor gris rojiza que se desprende en tiras; tiene ramasrígidas; sus hojas son de color verde oscuro, romboides-elípticas y alternas.",
-      "uso": "ddddddddddddddd",
+      "uso": "El tejocote es un árbol frutal muy apreciado por sus frutos, que son comestibles y se utilizan en diversas preparaciones culinarias como mermeladas, bebidas y salsas. Además, su madera es dura y se puede usar en la fabricación de herramientas y utensilios.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://www.elsoldetlaxcala.com.mx/doble-via/ohx36d-tejocote-2.jpg/ALTERNATES/FREE_768/tejocote%202.jpg"
     },
@@ -20,7 +20,7 @@
       "id": 21,
       "name": "Árbol de aguacate",
       "description": "Árbol perenne de gran tamaño, puede alcanzar los 24 metrosde longitud. Este producto es de color verdoso y de piel fina o gruesa. Sushojas son verdes y grandes, las flores son diminutas y amarillas yde ellas nacen los aguacates. Existen muchas variedades.",
-      "uso": "ddddddddddddddd",
+      "uso": "El aguacate es un árbol frutal muy valorado por sus frutos ricos en nutrientes, especialmente en grasas saludables. Los aguacates se consumen frescos, en guacamole y en una variedad de platillos.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://culturacientifica.com/app/uploads/2016/11/aguacate.jpg"
     },
@@ -28,7 +28,7 @@
       "id": 22,
       "name": "Árbol de papaya",
       "description": "Arbusto que crece rápidamente alcanzando en pocotiempo hasta 10m de altura. El tallo es delgado, erectoy de color grisáceo. Presenta hojas grandes formadaspor varios lóbulos.",
-      "uso": "ddddddddddddddd",
+      "uso": " La papaya es un árbol frutal cultivado por sus frutos dulces y jugosos, que son ricos en vitaminas y minerales. Además, tiene aplicaciones en la industria alimentaria y en la medicina tradicional.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://assets.treedom.net/image/upload/s--645JC7K---/c_limit,f_auto/v1/scientific_specie-gallery/m/d899172e03e4c4b0715fc1741e9ff822.jpg"
     },
@@ -36,7 +36,7 @@
       "id": 23,
       "name": "Árbol de naranja",
       "description": "En óptimas condiciones de cultivo llega hasta los13 metros de altura. Su tronco es corto, liso y decolor grisáceo. Sus hojas tienen forma ovaladade un verde muy vivo e intenso.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de naranja se cultiva por sus frutos jugosos y ricos en vitamina C. Las naranjas se consumen frescas o se utilizan en jugos y otros productos alimenticios.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://www.gastrolabweb.com/u/fotografias/m/2021/12/14/f850x638-22895_100384_5028.jpg"
     },
@@ -44,7 +44,7 @@
       "id": 24,
       "name": "Árbol de manzana",
       "description": "Árbol que puede llegar a alcanzar los 12 metros dealtura presenta la copa redondeada o abierta connumerosas ramas casi horizontales. Las hojas son deforma ovada, dentadas en los bordes.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de manzana se cultiva por sus frutos dulces, que se pueden comer frescos o utilizar en la preparación de jugos, mermeladas y postres.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://www.ecoportal.net/wp-content/uploads/cwv-webp-images/2023/06/Manzano.jpg.webp"
     },
@@ -52,7 +52,7 @@
       "id": 25,
       "name": "Árbol de mango",
       "description": "Desarrolla una copa perenne en forma de cúpula. Laforma y densidad de la copa varía entre variedades ysegún la forma de cultivo.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de mango es conocido por sus deliciosos frutos, que son ricos en nutrientes y antioxidantes. Los mangos se consumen frescos, en jugos, salsas y otros productos alimenticios.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://media.admagazine.com/photos/618a5dc7b94700461d620fbd/master/w_1600%2Cc_limit/93549.jpg"
     },
@@ -60,7 +60,7 @@
       "id": 26,
       "name": "Árbol de mandarina",
       "description": "Árbol pequeño de 2-6 m de altura, con troncocon frecuencia torcido. Es un árbol que se adapta con gran facilidad acondiciones climáticas desérticas, semitropicalesy subtropicales.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de mandarina se cultiva por sus frutos dulces y jugosos, que se pueden comer frescos o utilizar en jugos y otros productos.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/04/thumbnail_en-macetas-1.jpg?w=883"
     },
@@ -68,7 +68,7 @@
       "id": 27,
       "name": "Árbol de limón",
       "description": "Pueden alcanzar una altura de 5 a 6 metros yhasta 4 metros de ancho, tienen ramasirregulares, bastante largas con pequeñasespinas, fuertes y rígidas, de porte abierto.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de limón se cultiva por sus frutos ácidos, que se utilizan en la cocina para dar sabor a alimentos y bebidas. También tiene aplicaciones medicinales y cosméticas.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://tecolotito.elsiglodetorreon.com.mx/i/2022/01/1518524.jpeg"
     },
@@ -76,7 +76,7 @@
       "id": 28,
       "name": "Árbol de granada",
       "description": "Puede llegar a medir desde los 3 hasta los 6 metros dealtura según la variedad de la que se trate. El árbol dela granada tiene una hoja caduca y su tronco sueleretorcerse a medida que crece.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de granada se cultiva por sus frutos ricos en antioxidantes, que se pueden consumir frescos o utilizar en jugos y salsas.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://www.tijuana.gob.mx/webpanel/catalogoPlantas/categorias/2021818114133536.jpg"
     },
@@ -84,7 +84,7 @@
       "id": 29,
       "name": "Árbol de durazno",
       "description": "Es un árbol de forma arbustiva, copa amplia y de pequeño tamaño,que crece hasta los 4-10 metros de altura. El tronco es delgado, de corteza color gris, Las hojas verde oscuro sonalargadas, más anchas en medio y ligeramente dobladas hacia lanervadura central, con los bordes un poco aserrados. Las flores crecenen tallos cortos en brotes laterales",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de durazno se cultiva por sus frutos jugosos y dulces, que se pueden comer frescos o utilizar en mermeladas y postres.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://uvn-brightspot.s3.amazonaws.com/assets/vixes/imj/hogartotal/l/los-cuidados-del-arbol-duraznero-2.jpg"
     },
@@ -92,7 +92,7 @@
       "id": 30,
       "name": "Árbol de guayaba",
       "description": "Arbusto perenne de unos 5-6m de altura y muyramificado.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de guayaba se cultiva por sus frutos, que son ricos en vitamina C y se utilizan para hacer jugos, mermeladas y otros productos.",
       "clasificacion": "Arboles frutales",
       "imagen": "https://www.tijuana.gob.mx/webpanel/catalogoPlantas/categorias/2021818114220176.jpg"
     },
@@ -100,7 +100,7 @@
       "id": 31,
       "name": "Árbol pata de vaca",
       "description": "Árbol de hoja caduca que puede alcanzar alturas dehasta 10 metros. Dado su tamaño moderado, es unode los árboles ornamentales más populares enjardines",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol pata de vaca es ornamental, se utiliza para embellecer jardines y parques debido a sus hermosas flores.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://tienda.grupomundoverde.mx/wp-content/uploads/2022/05/Pata-de-vaca-scaled.jpeg"
     },
@@ -108,7 +108,7 @@
       "id": 32,
       "name": "Árbol lluvia de oro",
       "description": "Las hojas son grandes, alternas, caducas, las flores seproducen en racimos de péndulos.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol lluvia de oro es ornamental y se cultiva por sus bellas flores amarillas en racimos, que aportan color a los jardines.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://todoarboles.com/wp-content/uploads/2021/04/lluvia-de-oro-con-flores.jpg"
     },
@@ -116,7 +116,7 @@
       "id": 33,
       "name": "Árbol de jacaranda",
       "description": "Tiene un tronco algo encorvado, con una corteza lisaque en los ejemplares viejos se vuelve áspera y muyagrietada. Las hojas son caducas, opuestas ycompuestas.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de jacaranda es ornamental, conocido por sus hermosas flores de color púrpura que adornan parques y calles.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://www.prensalibre.com/wp-content/uploads/2024/02/Beneficios-de-la-jacaranda-2.jpg?quality=52"
     },
@@ -124,7 +124,7 @@
       "id": 34,
       "name": "Árbol de magnolia",
       "description": "Arbusto de crecimiento lento, piramidal, de grandesdimensiones",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de magnolia es ornamental y se cultiva por sus grandes flores perfumadas, que son visualmente llamativas.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://images.hola.com/imagenes/decoracion/20220601210846/cuidados-magnolia-plantas-de-exterior-il/1-95-268/cuidados-magnolio-08a-a.jpg"
     },
@@ -132,7 +132,7 @@
       "id": 35,
       "name": "Árbol sauce lloron",
       "description": "Árbol con ramas delgadas, flexibles, largas,colgantes casi hasta el suelo.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol sauce llorón es ornamental y se utiliza para embellecer jardines y parques por sus ramas colgantes y forma elegante.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://cdn0.bioenciclopedia.com/es/posts/1/2/4/sauce_lloron_421_600_square.jpg"
     },
@@ -140,7 +140,7 @@
       "id": 36,
       "name": "Árbol de cedro",
       "description": "Á Es un género de coníferas pináceas, con un troncogrueso en forma piramidal, de hoja perenne, cuyacaracterística principal es un aroma agradable.",
-      "uso": "ddddddddddddddd",
+      "uso": "El árbol de cedro es ornamental y se valora por su madera duradera y resistente, además de su aroma agradable.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cedrela_fissilis_-_Jardim_Bot%C3%A2nico_de_S%C3%A3o_Paulo_-_IMG_0169.jpg"
     },
@@ -148,15 +148,15 @@
       "id": 37,
       "name": "Árbol de eucalipto",
       "description": "Es un árbol que no sólo tiene función ornamental sinoque se utiliza para fines medicinales.",
-      "uso": "ddddddddddddddd",
+      "uso": " El árbol de eucalipto tiene usos medicinales por sus propiedades curativas, además de su función ornamental en parques y jardines.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://puropaisajismo.com.ar/uploads/Eucalyptus-globulus.jpg"
     },
     {
       "id": 38,
       "name": "Árbol de fresno",
-      "description": "mmmmmmmmmmmmmmmmmmmm",
-      "uso": "ddddddddddddddd",
+      "description": "El fresno es un árbol robusto que puede alcanzar alturas considerables, normalmente entre 15 y 35 metros. Presenta una copa densa y frondosa, con ramas fuertes y rectas que se despliegan en múltiples direcciones. Las hojas del fresno son compuestas, con varios folíolos, y tienen un color verde intenso. En otoño, las hojas cambian de color a amarillo o marrón antes de caer.",
+      "uso": " El árbol de fresno se utiliza como árbol ornamental por su elegancia y resistencia. También se puede utilizar su madera en la fabricación de muebles y herramientas.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://arboleslacalma.mx/wp-content/uploads/2018/04/detalle_FRESNO-ARIZONA01.jpg"
     },
@@ -164,7 +164,7 @@
       "id": 39,
       "name": "Árbol de laurel",
       "description": "Presenta tronco recto recubierto de corteza gris yuna densa copa compuesta por ramas rectilíneasrecubiertas por hojas de un verde oscuro.",
-      "uso": "ddddddddddddddd",
+      "uso": " El árbol de laurel es ornamental y también se utiliza por sus hojas aromáticas, que son utilizadas en la cocina para dar sabor a platillos.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFdra8eahOYimWMF7xeVDVX57NKF7rg-YDw6iNw-SbNQ&s"
     },
@@ -172,7 +172,7 @@
       "id": 40,
       "name": "Pino piñonero",
       "description": "Este pino se caracteriza por su porte en forma desombrilla o parasol y sus grandes piñas globosas",
-      "uso": "ddddddddddddddd",
+      "uso": "El pino piñonero es ornamental y se valora por su porte en forma de sombrilla. También se utiliza su madera para la construcción.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsysNXukTic8fKvVbUXVIIWlma2ReQvZDjPRYTVUu7w&s"
     },
@@ -180,7 +180,7 @@
       "id": 41,
       "name": "Ciprés",
       "description": "Especie muy alta y delgada, el ciprés se emplea deforma ornamental en parques y como cortavientos ypantalla acústica.",
-      "uso": "ddddddddddddddd",
+      "uso": "El ciprés es ornamental y se utiliza para decorar parques y jardines por su forma alta y delgada. También se puede usar como cortavientos.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GVggo3Dy_DlWdwnt9Q4pHCuiRPY77OmKyc9gYeSQqg&s"
     },
@@ -188,7 +188,7 @@
       "id": 42,
       "name": "Pinos",
       "description": "Son árboles que pueden alcanzar hasta 30 m de altura,con un tronco recto sobre el que se disponen varios pisosde ramas.",
-      "uso": "ddddddddddddddd",
+      "uso": "Los pinos son árboles ornamentales y se utilizan en parques y jardines por su apariencia. Además, su madera se utiliza en la construcción y fabricación de muebles.",
       "clasificacion": "Arboles ornamentales",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8OIQcZSlti455aJX5fcOzMYLImpZoErUNZCMlr-K-PPv1tpb4Yy6YRNCpIPvZLmOV54&usqp=CAU"
     }

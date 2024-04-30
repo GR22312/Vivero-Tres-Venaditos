@@ -1,30 +1,51 @@
 import React, { useState, useEffect } from 'react';
 import datos from './../../pages/api/plantas/index.json';
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, TextField, Typography, Select, MenuItem, InputLabel, FormControl, Box } from '@mui/material';
+import ModalPlantas from '../modals/modal_plantas';
 
 const ListPlantas = ({ servicio }) => {
+    const [modalOpen, setModalOpen] = useState(false);
+
+    // Función para abrir el modal
+    const handleOpenModal = () => {
+        setModalOpen(true);
+    };
+
+    // Función para cerrar el modal
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
     return (
-        <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '400px' }}>
-            <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-                <CardMedia
-                    component="img"
-                    height="200"
-                    image={servicio.imagen}
-                    alt={servicio.name}
-                />
-                <CardContent style={{ flex: '1 0 auto' }}>
-                    <Typography variant="h6" gutterBottom>
-                        {servicio.name}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary">
-                        Clasificación: {servicio.clasificacion}
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button size="large" sx={{ width: '100%' }}>Ver más</Button>
-                </CardActions>
-            </Card>
-        </Grid>
+        <>
+            <Grid item xs={12} sm={6} md={4} lg={3} style={{ height: '400px' }}>
+                <Card style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <CardMedia
+                        component="img"
+                        height="200"
+                        image={servicio.imagen}
+                        alt={servicio.name}
+                    />
+                    <CardContent style={{ flex: '1 0 auto' }}>
+                        <Typography variant="h6" gutterBottom  fontWeight="bold">
+                            {servicio.name}
+                        </Typography>
+                        <Typography variant="body2">
+                            Clasificación: {servicio.clasificacion}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="large" sx={{ width: '100%' }} onClick={handleOpenModal}>Ver más</Button>
+                    </CardActions>
+                </Card>
+            </Grid>
+
+            {/* Pasa el estado modalOpen y las funciones handleCloseModal e infoPlanta a ModalPlantas */}
+            <ModalPlantas
+                infoPlanta={servicio}
+                modalOpen={modalOpen}
+                handleCloseModal={handleCloseModal}
+            />
+        </>
     );
 };
 
@@ -64,11 +85,11 @@ const PlantasGrid = () => {
                     value={filtroNombre}
                     onChange={handleFiltroNombreChange}
                     fullWidth
-                    sx={{ marginRight: 2,backgroundColor: "white" }}
+                    sx={{ marginRight: 2, backgroundColor: "white" }}
                 />
-                
+
                 {/* Menú desplegable para el filtro por categoría */}
-                <FormControl variant="outlined" fullWidth  sx={{ backgroundColor: "white" }}>
+                <FormControl variant="outlined" fullWidth sx={{ backgroundColor: "white" }}>
                     <InputLabel id="filtro-categoria-label">Filtrar por categoría</InputLabel>
                     <Select
                         labelId="filtro-categoria-label"
@@ -84,7 +105,7 @@ const PlantasGrid = () => {
                     </Select>
                 </FormControl>
             </Box>
-            
+
             {/* Muestra un mensaje si no se encuentran servicios filtrados */}
             {serviciosFiltrados.length === 0 && (
                 <Typography variant="h6" color="textSecondary" align="center" mb={2}>
