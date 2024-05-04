@@ -87,7 +87,7 @@ function Home() {
         { text: "Venta de plantas", path: "/plant_catalog", img: "https://cdn.pixabay.com/photo/2017/07/25/14/34/rose-2538361_1280.jpg" },
         { text: "Venta de árboles", path: "/tree_catalog", img: "https://sembralia.com/cdn/shop/articles/cherries-1595610_640.jpg?v=1648560525" },
         { text: "Servicios", path: "/services_catalog", img: "https://jardineriapro.com/img/mantenimiento.jpg" },
-        { text: "Otros productos", path: "/otros_productos", img: "https://serveiestacio.com/blog/wp-content/uploads/2019/05/abonos-y-fertilizantes-para-plantas-1400x930.jpg" },
+        { text: "Otros productos", path: "/other_products", img: "https://serveiestacio.com/blog/wp-content/uploads/2019/05/abonos-y-fertilizantes-para-plantas-1400x930.jpg" },
     ].map(({ text, path, img }, index) => (
         <Grid item key={index} xs={12} sm={6} md={3} sx={{ textAlign: "center" }}>
             <Button

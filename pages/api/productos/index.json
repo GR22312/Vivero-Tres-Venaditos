@@ -1,0 +1,77 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "name": "Tierra preparada",
+        "description": "Mezcla de tierra enriquecida con nutrientes esenciales para el crecimiento saludable de las plantas. Proporciona un ambiente óptimo para la raíz y la retención de agua.",
+        "uso": "Utilizada para mejorar la calidad del suelo en jardines, macetas y áreas verdes, permitiendo un mejor desarrollo de las plantas.",
+        "clasificacion": "Sustratos y suelos",
+        "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750158920051L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+      },
+      {
+        "id": 2,
+        "name": "Fertilizantes orgánicos",
+        "description": "Fertilizantes naturales elaborados a partir de residuos vegetales y animales. Aportan nutrientes esenciales para un crecimiento saludable de las plantas.",
+        "uso": "Aplicados en el suelo o directamente a las plantas para mejorar la fertilidad del suelo y aumentar la producción de flores y frutos.",
+        "clasificacion": "Fertilizantes y enmiendas",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw5XwrR7TqKwmQHWkWGRHMGmzDKZzfcM2eIB9j4zMqEA&s"
+      },
+      {
+        "id": 3,
+        "name": "Abono líquido",
+        "description": "Fertilizante líquido de rápida absorción que proporciona nutrientes a las plantas de manera inmediata. Ideal para su uso en riego por goteo o aspersión.",
+        "uso": "Aplicado directamente a las plantas o mezclado con agua de riego para mejorar la salud y el crecimiento de las plantas.",
+        "clasificacion": "Fertilizantes y enmiendas",
+        "imagen": "https://sembralia.com/cdn/shop/products/MC-ALOEFERT.png?v=1603901756"
+      },
+      {
+        "id": 4,
+        "name": "Herramientas de jardinería",
+        "description": "Juego de herramientas básicas para la jardinería, incluyendo palas, rastrillos, tijeras de podar y guantes.",
+        "uso": "Utilizadas para plantar, podar, cavar y realizar otras tareas de jardinería, facilitando el mantenimiento de jardines y áreas verdes.",
+        "clasificacion": "Herramientas",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1u1hDI3DtBYxWj7ZL9XzOgi1eoXnRcuHAOJ3sbHTfIw&s"
+      },
+      {
+        "id": 5,
+        "name": "Piedras decorativas",
+        "description": "Piedras naturales de diferentes colores y tamaños utilizadas para embellecer jardines, senderos y áreas verdes.",
+        "uso": "Colocadas alrededor de plantas, senderos o en macetas para añadir textura y atractivo visual a los jardines.",
+        "clasificacion": "Decoración de jardines",
+        "imagen": "https://m.media-amazon.com/images/I/71xn9OpUhfL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Césped en rollos",
+        "description": "Césped natural pre-cultivado en rollos, listo para ser instalado en jardines y áreas verdes.",
+        "uso": "Se utiliza para crear superficies de césped rápidamente y mejorar la estética de jardines y áreas verdes.",
+        "clasificacion": "Jardinería de césped",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5udrbD0UsckrBIbU7ywWQnX6po4XL62au3_ijtfqCA&s"
+      },
+      {
+        "id": 7,
+        "name": "Macetas de cerámica",
+        "description": "Macetas elaboradas en cerámica de diferentes tamaños y colores, ideales para plantar flores y plantas de interior y exterior.",
+        "uso": "Proporcionan un soporte adecuado para las plantas y añaden un toque decorativo a los jardines y hogares.",
+        "clasificacion": "Contenedores y macetas",
+        "imagen": "https://discomgrup.com/wp-content/webp-express/webp-images/uploads/2021/09/macetas-terracota.png.webp"
+      },
+      {
+        "id": 8,
+        "name": "Control de plagas",
+        "description": "Productos específicos para controlar plagas y enfermedades que afectan a las plantas en los jardines.",
+        "uso": "Aplicados para proteger las plantas de insectos, hongos y otras plagas que pueden dañarlas.",
+        "clasificacion": "Control de plagas y enfermedades",
+        "imagen": "https://www.therealgreen.com.mx/cdn/shop/files/plagas3.png?v=1702519663&width=1024"
+      },
+      {
+        "id": 9,
+        "name": "Sustratos especiales",
+        "description": "Sustratos diseñados para satisfacer las necesidades específicas de diferentes tipos de plantas, como suculentas, orquídeas o plantas ácidas.",
+        "uso": "Proporcionan el medio de cultivo óptimo para el crecimiento de plantas con necesidades particulares de suelo.",
+        "clasificacion": "Sustratos y suelos",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnxmJodogNzkyXAfAMzgjZQfBv_NOb-8uQXooSMttrfw&s"
+      }
+    ]
+  }
+  

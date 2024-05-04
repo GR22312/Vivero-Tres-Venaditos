@@ -1,47 +1,46 @@
 {
-    "servicios": [
+  "servicios": [
       {
-        "id": 1,
-        "nombre": "Diseño de jardines",
-        "images": "../img/Diseño.jpg",
-        "descripcion": "Creamos diseños de jardines personalizados para satisfacer tus necesidades y gustos. Desde jardines pequeños hasta paisajes complejos.",
-        "precio": 100
+          "id": 1,
+          "nombre": "Diseño de jardines",
+          "images": "../img/Diseño.jpg",
+          "descripcion": "Creamos diseños de jardines personalizados que transformarán tu espacio exterior en un paraíso verde. Ya sea que desees un jardín pequeño y acogedor o un amplio paisaje lleno de vegetación, nuestro equipo de expertos trabajará contigo para materializar tus ideas. Utilizamos plantas nativas y técnicas de diseño sostenibles para crear jardines que no solo sean hermosos, sino también respetuosos con el medio ambiente.",
+          "precio": 100
       },
       {
-        "id": 2,
-        "nombre": "Instalación de sistemas de riego",
-        "images": "../img/Instalación.jpg",
-        "descripcion": "Ofrecemos servicios profesionales de instalación de sistemas de riego para mantener tus plantas y césped bien hidratados y saludables.",
-        "precio": 50
+          "id": 2,
+          "nombre": "Instalación de sistemas de riego",
+          "images": "../img/Instalación.jpg",
+          "descripcion": "Nuestros profesionales te ofrecen un servicio de instalación de sistemas de riego de alta calidad para mantener tus plantas y césped hidratados de manera eficiente. Diseñamos sistemas personalizados según tus necesidades, asegurando una distribución uniforme del agua para un crecimiento saludable de la vegetación. Además, nuestros sistemas son programables, lo que te permite ahorrar agua y tiempo.",
+          "precio": 50
       },
       {
-        "id": 3,
-        "nombre": "Podas y mantenimiento de árboles",
-        "images": "../img/mantenimiento.jpg",
-        "descripcion": "Nuestros expertos podadores pueden cuidar tus árboles, asegurando su crecimiento saludable y una apariencia estética.",
-        "precio": 80
+          "id": 3,
+          "nombre": "Podas y mantenimiento de árboles",
+          "images": "../img/mantenimiento.jpg",
+          "descripcion": "Nuestros expertos podadores ofrecen servicios de poda y mantenimiento de árboles para garantizar su crecimiento óptimo y su apariencia estética. Nos encargamos de eliminar ramas muertas o dañadas, fomentar un crecimiento saludable y evitar riesgos de seguridad. También te asesoramos sobre el cuidado general de tus árboles para que luzcan espectaculares durante todo el año.",
+          "precio": 80
       },
       {
-        "id": 4,
-        "nombre": "Consultoría en paisajismo",
-        "images": "../img/Consultoria.jpg",
-        "descripcion": "Te brindamos asesoramiento profesional para embellecer tu entorno exterior, maximizando el uso del espacio y la belleza natural.",
-        "precio": 120
+          "id": 4,
+          "nombre": "Consultoría en paisajismo",
+          "images": "../img/Consultoria.jpg",
+          "descripcion": "Nuestros especialistas en paisajismo te brindan asesoramiento personalizado para mejorar la estética y funcionalidad de tus espacios exteriores. Analizamos el entorno, el clima y tus preferencias para ofrecerte recomendaciones sobre diseño, plantas, y elementos arquitectónicos que armonicen con tu estilo. Nuestro objetivo es maximizar el uso del espacio, creando ambientes hermosos y acogedores.",
+          "precio": 120
       },
       {
-        "id": 5,
-        "nombre": "Control de plagas y enfermedades",
-        "images": "../img/Control.jpg",
-        "descripcion": "Utilizamos métodos seguros y efectivos para controlar plagas y enfermedades que puedan afectar a tus plantas y jardines.",
-        "precio": 70
+          "id": 5,
+          "nombre": "Control de plagas y enfermedades",
+          "images": "../img/Control.jpg",
+          "descripcion": "Utilizamos métodos seguros y efectivos para controlar plagas y enfermedades que pueden dañar tus plantas y jardines. Nuestros tratamientos están diseñados para proteger la salud de tus plantas, manteniendo el equilibrio ecológico en tu jardín. Trabajamos con productos y técnicas respetuosas con el medio ambiente, asegurando la seguridad de tus seres queridos y mascotas.",
+          "precio": 70
       },
       {
-        "id": 6,
-        "nombre": "Techos verdes",
-        "images": "../img/Techosverdes.jpg",
-        "descripcion": "Implementamos sistemas de techos verdes para mejorar la eficiencia energética, reducir la contaminación y crear espacios verdes sostenibles.",
-        "precio": 150
+          "id": 6,
+          "nombre": "Techos verdes",
+          "images": "../img/Techosverdes.jpg",
+          "descripcion": "Implementamos sistemas de techos verdes innovadores que ayudan a mejorar la eficiencia energética de tu hogar u oficina. Los techos verdes reducen la contaminación, retienen agua de lluvia y crean espacios verdes sostenibles. Además, añaden un toque estético a tus espacios, proporcionando un refugio para la biodiversidad local y mejorando la calidad del aire.",
+          "precio": 150
       }
-    ]
-  }
-  
+  ]
+}

@@ -18,7 +18,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Container from '@mui/material/Container';
 import { Avatar, IconButton } from '@mui/material';
-import { Assignment, ContactPage, Devices, Group, Info, Menu, Nature, NaturePeopleRounded, NaturePeopleSharp, SearchOutlined } from '@mui/icons-material';
+import { Assignment, Construction, ContactPage, Devices, Group, Info, Menu, Nature, NaturePeopleRounded, NaturePeopleSharp, SearchOutlined, StoreMallDirectoryOutlined } from '@mui/icons-material';
 import { useRouter } from "next/router";
 import PeopleIcon from "@mui/icons-material/People";
 import SmartphoneIcon from "@mui/icons-material/Smartphone";
@@ -69,6 +69,9 @@ export default function TemporaryDrawer({ props, children }) {
   const handleServicesClick = () => {
     router.push("/services_catalog")
   }
+  const handleProductsClick = () => {
+    router.push("/other_products")
+  }
 
   const [open, setOpen] = React.useState(false);
 
@@ -79,7 +82,7 @@ export default function TemporaryDrawer({ props, children }) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Inicio', 'Catalogo de plantas', 'Catalogo de arboles', 'Catalogo de servicios', 'Acerca de nosotros', 'Contactanos'].map((text, index) => (
+        {['Inicio', 'Catalogo de plantas', 'Catalogo de arboles', 'Catalogo de servicios', 'Otros productos','Acerca de nosotros', 'Contactanos'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => {
               switch (index) {
@@ -96,9 +99,12 @@ export default function TemporaryDrawer({ props, children }) {
                   handleServicesClick();
                   break;
                 case 4:
-                  handleAboutUsClick();
+                  handleProductsClick();
                   break;
                 case 5:
+                  handleAboutUsClick();
+                  break;
+                case 6:
                   handleContactUsClick();
                   break;
                 default:
@@ -111,10 +117,14 @@ export default function TemporaryDrawer({ props, children }) {
                 ) : index === 1 ? (
                   <NaturePeopleRounded />
                 ) : index === 2 ? (
-                  <Assignment />
+                  <Nature />
                 ) : index === 3 ? (
-                  <SearchOutlined />
-                ) : (
+                  <Construction />
+                ) : index === 4 ? (
+                  <StoreMallDirectoryOutlined />
+                ) : index === 5 ? (
+                  <Info />
+                ) :  (
                   <ContactPage />
                 )}
               </ListItemIcon>
